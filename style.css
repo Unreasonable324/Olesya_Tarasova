@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@400;500&family=Mulish:wght@800&family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+input {
+    /* color: #fff; */
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    /* background: red; */
+}
+
+
+[class*="container"] {
+    max-width: 1325px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+[class*="container2"] {
+    margin-left: 174px;
+}
+
+.main {
+    background-image: url(./Images/bgMain.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main_container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main_container h2 {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.main_container h1 {
+    margin-top: 256px;
+    width: 913px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 80px;
+    color: #fff;
+
+}
+
+.btns-wrapper {
+    margin-top: 250px;
+    display: flex;
+    gap: 44px;
+}
+
+.btn {
+    width: 158px;
+    height: 60px;
+    line-height: 60px;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 25px;
+    /* font-family: 'Inder'; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #c7c7c7;
+
+}
+
+.my-help {
+    margin-top: 187px;
+}
+
+.help-container {
+    position: relative;
+}
+
+.side-txt {
+    left: -105px;
+    top: 26%;
+    transform: rotate(-90deg) translate(0%, -50%);
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+    color: #414141;
+}
+
+.help-container2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #414141;
+
+}
+
+.help-main-title p,
+.choice-me-main-title p,
+.payment-main-title p,
+.brief-title p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    color: #414141;
+}
+
+.help-items {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-bottom: 146px;
+}
+
+.help_item {
+    width: max-content;
+}
+
+.help_item_title {
+    border-bottom: 1px solid #C4C4C4;
+    font-size: 41px;
+    line-height: 65px;
+}
+
+.help_item_subtitle,
+.choice-me-subtitle {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 27px;
+
+
+}
+
+.choice-me {}
+
+.choice-me-container {
+    position: relative;
+}
+
+.choice-me-container .side-txt {
+    left: -130px;
+    top: 43%;
+}
+
+.side-text {}
+
+.choice-me-container2 {}
+
+.choice-me-main-title {}
+
+.choice-me-subtitles-wrapper {
+    margin-top: 22px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+
+}
+
+.choice-me-subtitle {
+    margin-top: 38px;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 5px;
+
+}
+
+.work {
+
+    margin-bottom: 170px;
+}
+.work {
+}
+.workone-container img {
+    width: 100%;
+}
+
+.conditions {}
+
+.conditions-container {
+    position: relative;
+    margin-bottom: 98px;
+}
+
+.conditions-container .side-txt {
+    left: -117px;
+    top: 22%;
+}
+
+
+.conditions-container2 {}
+
+.conditions-wrapper {
+    width: 100%;
+    margin-bottom: 83px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.conditions-item {
+    width: 360px;
+}
+
+.conditions_title p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 50px;
+    color: #414141;
+
+}
+
+.conditions_title span {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+
+    letter-spacing: 2px;
+
+    color: #C4C4C4;
+
+}
+
+.conditions-subtitle-wrapper {}
+
+.conditions-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #414141;
+    padding: 24px 0;
+    border-top: 1px solid #C4C4C4;
+}
+
+.price,
+.payment-title {
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 84px;
+    color: #414141;
+    position: relative;
+}
+
+.price span {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+
+    color: #C4C4C4;
+    position: absolute;
+    top: -25px;
+}
+
+.payment {}
+
+.payment-container {
+    position: relative;
+    margin-bottom: 107px;
+}
+
+.payment-container .side-txt {
+    left: -68px;
+    top: 20%;
+}
+
+
+.payment-container2 {}
+
+.payment-main-title {
+    margin-bottom: 84px;
+}
+
+.payment-items-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paiment-item {}
+
+.payment-title {
+    margin-bottom: 40px;
+}
+
+.payment-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+
+    color: #414141;
+}
+
+.brief {}
+
+.brief-container {
+    margin-bottom: 100px;
+}
+
+.brief-title {}
+
+.brief-items-wrapper {
+    padding: 0 220px;
+    margin-bottom: 20px;
+}
+
+.brief-item {
+    padding: 35px 0;
+    border-bottom: 1px solid #C4C4C4;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    
+
+    color: #414141;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {}
+.footer {
+    background: #0A0A0A;
+}
+.footer-container {
+    height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-wrapper {
+    display: flex;
+    gap: 35px;
+}
+.mail,.number {
+    font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+/* or 107% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+ 
